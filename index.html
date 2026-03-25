@@ -330,8 +330,8 @@
           ctx.fill();
         }
 
-      drawFood();
-      drawSnake();
+      if (food)  drawFood();
+      if (snake) drawSnake();
     }
 
     function drawFood() {
